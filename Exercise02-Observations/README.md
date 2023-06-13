@@ -1,4 +1,18 @@
-# Objective
+## Module 2: Azure Synapse Data Explorer Pool  
+Module 2 will be focused on the basic steps to load and analyze the Medical Data (time-series data) with Data Explorer Pool for Azure Synapse.  
+
+## Create a Data Explorer Pool  
+1. In Synapse studio, on the left-side pane, select **Manage > Data Explorer pools**
+2. Select **New**, and then enter the following details on the **Basics** tab:  
+   | Setting | Value | Description |
+   |:------|:------|:------
+   | Data Explorer Pool Name | medicaldx | This is the name the Data Explorer pool will have |
+   | Workload | Compute Optimized | This workload provides a higher CPU to SSD storage ratio. |
+   | Node Size | Small(4 cores) | Set this to the smallest size to reduce costs for this quickstart |  
+ 3. Select **Review + Create > Create.** Your data explorer will start the provisioning process. Once it is complete move on to the next step  
+
+
+ # Objective
 * This pipeline takes the JSON data that is in FHIR standard format from our "raw" ADLS container and converts it to parquet.  Since Parquet is a columnar compressed file format this makes it much faster to import and work with the data.  We store the parquet output in our "processed" container in ADLS under a folder called "Observation".
 ![image](https://user-images.githubusercontent.com/59613090/193125969-460256eb-b025-4e56-8e16-ad10677b54f2.png)
 
