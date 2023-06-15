@@ -23,7 +23,7 @@ Module 2 will be focused on the basic steps to load and analyze the Medical Data
    | Default retention period | 365 | The time span (in days) for which it's guaranteed that the data is kept available to query. The time span is measured from the time that data is ingested. |   
    |Default cache period | 31 | The time span (in days) for which to keep frequently queried data available in SSD storage or RAM, rather than in longer-term storage  
 3. Select **Create** to create the database. Creation typically takes less than a minute.
-[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fgithub.com%2FMoazad%2FAzureSynapseEndToEndDemo%2Fblob%2F6c3a08a1cbe7288e7a1116b100e39aaefb5cf242%2FARMTemplate%2FSynapse%2520studio)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2FMoazad%2FAzureSynapseEndToEndDemo%2F6c3a08a1cbe7288e7a1116b100e39aaefb5cf242%2FARMTemplate%2FSynapse%2520studio)
 ![Creating Data Explorer Pool](https://github.com/Moazad/AzureSynapseEndToEndDemo/blob/71117eb70266d4707768ffb0f5ef101da69e01ee/Images/Gif1.gif)
 
 # Objective
