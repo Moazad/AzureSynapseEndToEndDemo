@@ -1,0 +1,49 @@
+{
+    "properties": {
+        "defaultDataLakeStorage": {
+            "createManagedPrivateEndpoint": false,
+            "accountUrl": "https://storagemeidcaldata.dfs.core.windows.net/",
+            "filesystem": "medicaldatacontainer"
+        },
+        "encryption": {
+            "doubleEncryptionEnabled": false
+        },
+        "provisioningState": "Succeeded",
+        "connectivityEndpoints": {
+            "web": "https://web.azuresynapse.net?workspace=%2fsubscriptions%2f4eeedd72-d937-4243-86d1-c3982a84d924%2fresourceGroups%2frg-synapse-practice-azad11%2fproviders%2fMicrosoft.Synapse%2fworkspaces%2fsynapsewksspcazad11",
+            "dev": "https://synapsewksspcazad11.dev.azuresynapse.net",
+            "sqlOnDemand": "synapsewksspcazad11-ondemand.sql.azuresynapse.net",
+            "sql": "synapsewksspcazad11.sql.azuresynapse.net"
+        },
+        "managedResourceGroupName": "synapseworkspace-managedrg-5700db7f-6685-4ede-9ea8-2305d5627808",
+        "sqlAdministratorLogin": "sqladmin",
+        "privateEndpointConnections": [],
+        "workspaceUID": "888b2b4d-9571-4662-9764-b67d64b31f87",
+        "extraProperties": {
+            "WorkspaceType": "Normal",
+            "IsScopeEnabled": false
+        },
+        "workspaceRepositoryConfiguration": {
+            "accountName": "moazad",
+            "collaborationBranch": "main",
+            "hostName": "https://github.com",
+            "repositoryName": "AzureSynapseEndToEndDemo",
+            "rootFolder": "/artifacts",
+            "type": "WorkspaceGitHubConfiguration"
+        },
+        "publicNetworkAccess": "Enabled",
+        "cspWorkspaceAdminProperties": {
+            "initialWorkspaceAdminObjectId": "535dedb8-33e8-40f9-b716-30b0a9c7f7f0"
+        },
+        "trustedServiceBypassEnabled": false
+    },
+    "type": "Microsoft.Synapse/workspaces",
+    "id": "/subscriptions/4eeedd72-d937-4243-86d1-c3982a84d924/resourceGroups/rg-synapse-practice-azad11/providers/Microsoft.Synapse/workspaces/synapsewksspcazad11",
+    "location": "eastus",
+    "name": "synapsewksspcazad11",
+    "identity": {
+        "type": "SystemAssigned",
+        "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
+        "principalId": "4c52ed64-aab3-42ff-9b43-0836b5177455"
+    }
+}
