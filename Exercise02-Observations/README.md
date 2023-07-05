@@ -25,7 +25,7 @@ Module 2 will be focused on the basic steps to load and analyze the Medical Data
 3. Select **Create** to create the database. Creation typically takes less than a minute.
 
 
-![Creating Data Explorer Pool](https://github.com/Moazad/AzureSynapseEndToEndDemo/blob/71117eb70266d4707768ffb0f5ef101da69e01ee/Images/Gif1.gif)
+![Creating Data Explorer Pool](https://github.com/Moazad/AzureSynapseEndToEndDemo/blob/65cc6f7bfaf0d4c2b81055acff06d5a1a1372a36/Images/data%20explorer%20database.gif)
 
 # Objective
 * This pipeline takes the JSON data that is in FHIR standard format from our "raw" ADLS container and converts it to parquet.  Since Parquet is a columnar compressed file format this makes it much faster to import and work with the data.  We store the parquet output in our "processed" container in ADLS under a folder called "Observation".
